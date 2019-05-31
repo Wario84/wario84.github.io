@@ -14,11 +14,11 @@ The model has three layers or clusters,
 ## Stan Data Chunk
 
 We define the following sets.
-$n \in N$ is a set of researchers (individuals)
-$m \in M$ is a set of master universities such that $n:m$, If a researcher $n$ graduated from university $m$.
-$q \in Q$ is a set of factors factors related to innate ability.
-$p \in P$ is a set of Phd. Universities$.
-$l \in L$ is a set of factors affecting university selection.
+* $n \in N$ is a set of researchers (individuals)
+* $m \in M$ is a set of master universities such that $n:m$, If a researcher $n$ graduated from university $m$.
+* $q \in Q$ is a set of factors factors related to innate ability.
+* $p \in P$ is a set of Phd. Universities$.
+* $l \in L$ is a set of factors affecting university selection.
 
 
 ```
