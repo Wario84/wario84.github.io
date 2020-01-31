@@ -1,9 +1,16 @@
 name: Mario H. Gonzalez-Sauri
 permalink: /blog/:year/:month/:day/:title
-markdown: kramdown
-highlighter: rouge
+#markdown: kramdown
+#highlighter: rouge
+#kramdown:
+#  input: GFM
+#  hard_wrap: False
+#  enable_coderay: True
+#  syntax_highlighter: rouge
+markdown: "kramdown"
+highlighter: "rouge"
 kramdown:
-  input: GFM
-  hard_wrap: False
-  enable_coderay: True
-  syntax_highlighter: rouge
+    input: "GFM"
+    hard_wrap: "false"
+    syntax_highlighter: "rouge"
+    math_engine: "mathjax"
