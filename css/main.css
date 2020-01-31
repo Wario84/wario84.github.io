@@ -1,3 +1,6 @@
+.highlight { background-color: #ffffcc } 
+
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -42,6 +45,7 @@ ul.posts li {
     list-style: none;
 }
 
+#Highlight inline code: https://talk.jekyllrb.com/t/changing-the-coloring-of-inline-code-span/151/7
 .highlighter-rouge {
     color: #000000;
     background-color: #8f8f8f;
