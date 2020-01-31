@@ -5,5 +5,5 @@ highlighter: rouge
 kramdown:
   input: GFM
   hard_wrap: False
+  enable_coderay: True
   syntax_highlighter: rouge
-  syntax_highlighter_opts: {span: {disable: true}
