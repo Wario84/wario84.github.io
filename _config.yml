@@ -1,19 +1,20 @@
 name: Mario H. Gonzalez-Sauri
 permalink: /blog/:year/:month/:day/:title
-#markdown: kramdown
-#highlighter: rouge
-#kramdown:
-#  input: GFM
-#  hard_wrap: False
-#  enable_coderay: True
-#  syntax_highlighter: rouge
-
-# Uncomment theme for docs folder
-theme: "jekyll-theme-cayman"
-markdown: "kramdown"
-highlighter: "rouge"
+markdown: kramdown
+highlighter: rouge
 kramdown:
-    input: "GFM"
-    hard_wrap: "false"
-    syntax_highlighter: "rouge"
-    math_engine: "mathjax"
+  input: GFM
+  hard_wrap: False
+  enable_coderay: True
+  syntax_highlighter: rouge
+  math_engine: mathjax
+  
+# Uncomment theme for docs folder
+#theme: "jekyll-theme-cayman"
+#markdown: "kramdown"
+#highlighter: "rouge"
+#kramdown:
+#    input: "GFM"
+#    hard_wrap: "false"
+#    syntax_highlighter: "rouge"
+#    math_engine: "mathjax"
