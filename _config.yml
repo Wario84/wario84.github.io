@@ -7,6 +7,9 @@ permalink: /blog/:year/:month/:day/:title
 #  hard_wrap: False
 #  enable_coderay: True
 #  syntax_highlighter: rouge
+
+# Uncomment theme for docs folder
+theme: "jekyll-theme-cayman"
 markdown: "kramdown"
 highlighter: "rouge"
 kramdown:
