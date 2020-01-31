@@ -1,7 +1,7 @@
 name: Mario H. Gonzalez-Sauri
-markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-
+markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM
   hard_wrap: False
