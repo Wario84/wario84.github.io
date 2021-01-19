@@ -5,7 +5,17 @@ output: github_document
 
 ## Introduction.
 
-Multinomial models are suitable to estimate the probability of $i$ *units* falling into $K$ categories. These $K$ do not have an order, but rather are options or *choices*. For instance, an ice cream flavor, an occupational choice or university selection. All $K>2$ categories are the outcome of a variable  $y_n^*$. The multinomial logistic model is an extension of the binary logistic model, you can revise the derivation from [Wikipedia](https://en.wikipedia.org/wiki/Multinomial_logistic_regression). The basic idea is that each pair of $K$ categories is an output of a binary logistic model. One of the $K$ categories serves a *pivot* for each $K-1$ equations in a system.
+Multinomial models are suitable to estimate the probability of \(i\)
+*units* falling into \(K\) categories. These \(K\) do not have an order,
+but rather are options or *choices*. For instance, an ice cream flavor,
+an occupational choice or university selection. All \(K>2\) categories
+are the outcome of a variable \(y_n^*\). The multinomial logistic model
+is an extension of the binary logistic model, you can revise the
+derivation from
+[Wikipedia](https://en.wikipedia.org/wiki/Multinomial_logistic_regression).
+The basic idea is that each pair of \(K\) categories is an output of a
+binary logistic model. One of the \(K\) categories serves a *pivot* for
+each \(K-1\) equations.
 
 ## Data
 
