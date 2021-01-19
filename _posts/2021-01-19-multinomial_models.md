@@ -1,6 +1,6 @@
 ---
 title: "Multinomial logistic regression using R: Bayesian and Frequentist models."
-date: 2021--01--19
+date: 2021-01-19
 output: github_document
 ---
 
